@@ -1,0 +1,69 @@
+2021-03-25 16:00:25,679 INFO com.hcl.bank.BankApplication [restartedMain] Starting BankApplication on LAPTOP-PD0B0SSO with PID 11896 (D:\springboot\bank\bank\target\classes started by Yona Peddireddy in D:\springboot\bank\bank)
+2021-03-25 16:00:25,690 DEBUG com.hcl.bank.BankApplication [restartedMain] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-03-25 16:00:25,691 INFO com.hcl.bank.BankApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-25 16:00:29,417 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-03-25 16:00:29,418 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-03-25 16:00:30,069 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-25 16:00:30,086 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/bank] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-25 16:00:30,413 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-25 16:00:30,626 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.12.Final
+2021-03-25 16:00:31,011 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-25 16:00:31,252 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-03-25 16:00:32,544 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-03-25 16:00:32,612 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-25 16:00:34,173 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-25 16:00:35,556 INFO com.hcl.bank.controller.TwilioInitializer [restartedMain] Twilio initialized ... with account sid ACe949f3017bc4fb3efd04a33e98abc30e 
+2021-03-25 16:00:36,296 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2021-03-25 16:00:36,310 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-03-25 16:00:36,322 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2021-03-25 16:00:36,348 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2021-03-25 16:01:53,657 INFO com.hcl.bank.BankApplication [restartedMain] Starting BankApplication on LAPTOP-PD0B0SSO with PID 18764 (D:\springboot\bank\bank\target\classes started by Yona Peddireddy in D:\springboot\bank\bank)
+2021-03-25 16:01:53,660 DEBUG com.hcl.bank.BankApplication [restartedMain] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-03-25 16:01:53,660 INFO com.hcl.bank.BankApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-25 16:01:55,660 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-03-25 16:01:55,660 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-03-25 16:01:56,124 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-25 16:01:56,133 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/bank] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-25 16:01:56,325 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-25 16:01:56,411 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.12.Final
+2021-03-25 16:01:56,583 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-25 16:01:56,699 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-03-25 16:01:57,592 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-03-25 16:01:57,632 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-25 16:01:58,604 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-25 16:01:59,545 INFO com.hcl.bank.controller.TwilioInitializer [restartedMain] Twilio initialized ... with account sid ACe949f3017bc4fb3efd04a33e98abc30e 
+2021-03-25 16:02:00,447 INFO com.hcl.bank.BankApplication [restartedMain] Started BankApplication in 7.432 seconds (JVM running for 9.039)
+2021-03-25 16:02:07,637 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/bank] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-25 16:02:18,295 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-03-25 16:02:18,343 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-03-25 17:38:15,997 INFO com.hcl.bank.BankApplication [restartedMain] Starting BankApplication on LAPTOP-PD0B0SSO with PID 16244 (D:\springboot\bank\bank\target\classes started by Yona Peddireddy in D:\springboot\bank\bank)
+2021-03-25 17:38:16,105 DEBUG com.hcl.bank.BankApplication [restartedMain] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-03-25 17:38:16,106 INFO com.hcl.bank.BankApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-25 17:38:19,057 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-03-25 17:38:19,057 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-03-25 17:38:19,809 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-25 17:38:19,826 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/bank] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-25 17:38:20,210 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-25 17:38:20,411 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.12.Final
+2021-03-25 17:38:20,804 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-25 17:38:21,093 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-03-25 17:38:22,212 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-03-25 17:38:22,277 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-25 17:38:23,665 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-25 17:38:24,649 INFO com.hcl.bank.controller.TwilioInitializer [restartedMain] Twilio initialized ... with account sid ACe949f3017bc4fb3efd04a33e98abc30e 
+2021-03-25 17:38:25,399 INFO com.hcl.bank.BankApplication [restartedMain] Started BankApplication in 10.37 seconds (JVM running for 12.265)
+2021-03-25 17:38:30,533 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-03-25 17:38:30,557 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
